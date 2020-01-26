@@ -28,7 +28,7 @@ body {
     position: relative;
     background-color: #1e2245;
     color: #ffffff;
-    height: 100vh;
+    min-height: 100vh;
   }
   .header::before {
     content: "";
@@ -39,7 +39,7 @@ body {
     bottom: 0;
     background-color: #1e2245;
     opacity: 0.45;
-    height: 100vh;
+    min-height: 100vh;
   }
   .container {
     padding-left: 6.25%;
