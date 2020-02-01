@@ -1,0 +1,95 @@
+@media (min-width: 768px) and (max-width: 960px) {
+  html {
+    font-size: 2.08vw;
+  }
+  .header {
+    background-image: url("../img/football_1280.jpg");
+    padding-top: 2.5rem;
+    padding-bottom: 4.69rem;
+  }
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .text-logo-svg {
+    width: 12.75rem;
+  }
+  .header-title {
+    margin-top: 10.31rem;
+    margin-left: 2.62rem;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  .header-title-decoration {
+    display: inline-block;
+    margin-left: 6.14rem;
+  }
+  .header .buttons {
+    margin-top: 18.55rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button-download {
+    padding: 1rem 2.56rem;
+    width: 19.37rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+  }
+  .button-download:nth-child(odd) {
+    margin-right: 1.87rem;
+  }
+  .button-svg {
+    width: 2.25rem;
+    margin-right: 1.68rem;
+  }
+  .button-text {
+    font-size: 0.875rem;
+    line-height: 1.2;
+  }
+  .section-athlets {
+    position: relative;
+    padding-top: 5.43rem;
+  }
+  .section-athlets .container {
+    padding-left: 18.25rem;
+  }
+  .section-title {
+    font-size: 5rem;
+  }
+  .section-img-container {
+    position: absolute;
+    right: 31.2rem;
+    top: 6.5rem;
+    z-index: 1;
+  }
+  .section-image{
+    height: 43.625rem;
+  }
+  .section-section-number {
+    font-size: 1.125rem;
+    margin-right: 0.42rem;
+  }
+  .section-section-number::after {
+    height: 0.30rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+  .section-section {
+    padding-top: 2.2rem;
+    padding-bottom: 2.25rem;
+  }
+  .section-section-title {
+    font-size: 2rem;
+  }
+  .section-section-description {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+  }
+}
+@media (min-width: 961px) and (max-width: 1920px) {
+}
