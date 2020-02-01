@@ -44,7 +44,7 @@ body {
 }
 .header::before {
   background-color: #1e2245;
-  opacity: 0.65;
+  opacity: 0.85;
 }
 .logo {
   display: flex;
@@ -85,7 +85,7 @@ body {
   .header {
     background-image: url("../img/football_767.jpg");
     padding-top: 2rem;
-    padding-bottom: 5.6rem;
+    padding-bottom: 4.25rem;
   }
   .container {
     padding-left: 1.333rem;
@@ -112,7 +112,7 @@ body {
   }
   .button-download {
     padding: 0.53rem 5.4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.9rem;
   }
   .button-svg {
     width: 1.3rem;
@@ -329,7 +329,7 @@ body {
   .header {
     background-image: url("../img/football_1280.jpg");
     padding-top: 2.5rem;
-    padding-bottom: 5.69rem;
+    padding-bottom: 4.69rem;
   }
   .container {
     padding-left: 2rem;
@@ -339,8 +339,8 @@ body {
     width: 12.75rem;
   }
   .header-title {
-    margin-top: 11.31rem;
-    margin-left: 3.63rem;
+    margin-top: 10.31rem;
+    margin-left: 2.62rem;
     font-size: 4rem;
     font-weight: bold;
     line-height: 1.2;
@@ -349,11 +349,10 @@ body {
   }
   .header-title-decoration {
     display: inline-block;
-    margin-top: 2rem;
-    margin-left: 11.75rem;
+    margin-left: 6.14rem;
   }
   .header .buttons {
-    margin-top: 19.55rem;
+    margin-top: 18.55rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -362,16 +361,17 @@ body {
     padding: 1rem 2.56rem;
     width: 19.37rem;
     box-sizing: border-box;
+    margin-bottom: 1rem;
   }
   .button-download:nth-child(odd) {
     margin-right: 1.87rem;
   }
   .button-svg {
-    width: 1.3rem;
-    margin-right: 0.46rem;
+    width: 2.25rem;
+    margin-right: 1.68rem;
   }
   .button-text {
-    font-size: 0.53rem;
+    font-size: 0.875rem;
     line-height: 1.2;
   }
 }
