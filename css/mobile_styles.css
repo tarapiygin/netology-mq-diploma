@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 640px) {
   html {
     font-size: 4.68vw;
   }
@@ -90,7 +90,7 @@
     margin-top: 1.86rem;
   }
   .section-players {
-    margin-top: 1.4rem;
+    padding-top: 1.4rem;
   }
   .section-players-container::after {
     content: "";
@@ -105,53 +105,18 @@
   .section-players .section-section:nth-child(1) {
     background-color: #fafafa;
   }
-  .section-players .section-section:nth-child(2) {
-    background-color: #f5f4f9;
-  }
-  .section-players .section-section:nth-child(3) {
-    background-color: #090c35;
-  }
-
-  .section-players .section-section:nth-child(3) .section-section-number {
-    color: #8765dd;
-  }
-  .section-players .section-section:nth-child(3) .section-section-description {
-    color: #c2c3cd;
-  }
-  .section-players
-    .section-section:nth-child(3)
-    .section-section-number::after {
-    background-color: #ffffff;
-  }
-  .advantage-image {
-    max-width: 100%;
-  }
   .section-advantage-image-container {
-    position: absolute;
-    bottom: -0.8rem;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
     width: 4.67rem;
     height: 4.67rem;
-    background-color: #5e42b0;
+    bottom: -0.8rem;
   }
   .section-advantage-image-container-number {
-    display: block;
-    color: #ffffff;
-    align-self: center;
     font-size: 0.93rem;
   }
   .section-advantage-image-container-number::after {
-    content: "";
     height: 0.29rem;
-    border-radius: 20%;
-    display: block;
     margin-top: 0.133rem;
     margin-bottom: 0.2rem;
-    background-color: #ffffff;
-    opacity: 0.3;
   }
   .advantage-section-container {
     padding-top: 2.26rem;
@@ -159,7 +124,6 @@
   }
   .advantage-title {
     font-size: 1.87rem;
-    text-transform: uppercase;
   }
   .advantage-description {
     font-size: 1.067rem;
@@ -170,29 +134,11 @@
     background-image: url("../img/game_767.jpg");
     padding-top: 6.25rem;
     padding-bottom: 0.67rem;
+    min-height: 100vh;
   }
   .footer::before {
     background-color: #1e2245;
     opacity: 0.8;
-  }
-  .footer .buttons {
-    margin-top: 4.75rem;
-    margin-bottom: 5.125rem;
-  }
-  .footer-title {
-    color: #ffffff;
-    text-align: center;
-    font-size: 2rem;
-    line-height: 1.2;
-    margin-bottom: 0;
-    text-transform: uppercase;
-  }
-  .footer-description {
-    margin-top: 0;
-    color: #9b8ec1;
-    text-align: center;
-    font-size: 0.875rem;
-    text-transform: uppercase;
   }
   .container-logo-svg {
     display: block;
@@ -208,5 +154,20 @@
     margin: auto;
     width: 3.75rem;
     fill: #ffffff;
+  }
+  .footer-title {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 0;
+  }
+  .footer-description {
+    margin-top: 0;
+    text-align: center;
+    font-size: 0.875rem;
+  }
+  .footer .buttons {
+    margin-top: 4.75rem;
+    margin-bottom: 5.125rem;
   }
 }

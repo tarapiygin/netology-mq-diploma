@@ -137,3 +137,37 @@ body {
 .section-players .section-section:nth-child(3) .section-section-number::after {
   background-color: #ffffff;
 }
+.advantage-image {
+  max-width: 100%;
+}
+.section-advantage-image-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  background-color: #5e42b0;
+}
+.section-advantage-image-container-number {
+  display: block;
+  color: #ffffff;
+  align-self: center;
+}
+.section-advantage-image-container-number::after {
+  content: "";
+  border-radius: 20%;
+  display: block;
+  background-color: #ffffff;
+  opacity: 0.3;
+}
+.advantage-title {
+  text-transform: uppercase;
+}
+.footer-title {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.footer-description {
+  color: #9b8ec1;
+  text-transform: uppercase;
+}

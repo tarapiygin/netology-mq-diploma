@@ -6,6 +6,7 @@
     background-image: url("../img/football_1280.jpg");
     padding-top: 2.5rem;
     padding-bottom: 4.69rem;
+    background-color: #1e2245;
   }
   .container {
     padding-left: 2rem;
@@ -27,11 +28,13 @@
     display: inline-block;
     margin-left: 6.14rem;
   }
-  .header .buttons {
-    margin-top: 18.55rem;
+  .buttons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .header .buttons {
+    margin-top: 18.55rem;
   }
   .button-download {
     padding: 1rem 2.56rem;
@@ -57,7 +60,9 @@
   .section-athlets .container {
     padding-left: 18.25rem;
   }
-  .section-title {
+  .section-title,
+  .advantage-title,
+  .footer-title{
     font-size: 5rem;
   }
   .section-img-container{
@@ -103,7 +108,69 @@
   .section-players .container {
     padding-right: 22.5rem;
   }
-
+  .section-advantage-image-container {
+    width: 7.25rem;
+    height: 7.25rem;
+    bottom: -2.25rem;
+  }
+  .section-advantage-image-container-number {
+    font-size: 1.5rem;
+  }
+  .section-advantage-image-container-number::after {
+    height: 0.31rem;
+    margin-top: 0.26rem;
+    margin-bottom: 0.2rem;
+  }
+  .advantage-section-container {
+    padding-top: 5rem;
+    padding-bottom: 3.5rem;
+  }
+  .advantage-description {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.15;
+  }
+  .footer {
+    background-image: url("../img/game_767.jpg");
+    padding-top: 7.87rem;
+    padding-bottom: 1.43rem;
+    background-color: #1e2245;
+  }
+  .footer::before {
+    background-color: #1e2245;
+    opacity: 0.8;
+  }
+  .container-logo-svg {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8.125rem;
+    height: 8.5rem;
+    padding: 1.625rem 0.75rem;
+    background-color: #563ca4;
+    border-radius: 2.6rem;
+  }
+  .logo-svg {
+    display: block;
+    margin: auto;
+    width: 6.5rem;
+    fill: #ffffff;
+  }
+  .footer-title {
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 0;
+  }
+  .footer-description {
+    margin-top: 0;
+    text-align: center;
+    font-size: 2.25rem;
+  }
+  .footer .buttons {
+    margin-top: 14rem;
+    margin-bottom: 3.44rem;
+  }
 }
 @media (min-width: 961px) and (max-width: 1920px) {
 }
