@@ -17,9 +17,6 @@
   .header-title {
     margin-top: 8.5rem;
     font-size: 1.8rem;
-    font-weight: bold;
-    line-height: 1.2;
-    text-transform: uppercase;
     margin-bottom: 0;
   }
   .header-title-decoration {
@@ -109,6 +106,7 @@
     width: 4.67rem;
     height: 4.67rem;
     bottom: -0.8rem;
+    left: 1.333rem;
   }
   .section-advantage-image-container-number {
     font-size: 0.93rem;
@@ -118,9 +116,11 @@
     margin-top: 0.133rem;
     margin-bottom: 0.2rem;
   }
-  .advantage-section-container {
+  .advantage-section-container:nth-child(2) {
     padding-top: 2.26rem;
     padding-bottom: 5rem;
+    padding-left: 1.333rem;
+    padding-right: 1.333rem;
   }
   .advantage-title {
     font-size: 1.87rem;

@@ -55,6 +55,11 @@ body {
 .text-logo-svg {
   fill: #ffffff;
 }
+.header-title {
+  font-weight: bold;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
 .button-download {
   display: flex;
   flex-wrap: nowrap;
@@ -136,6 +141,9 @@ body {
 }
 .section-players .section-section:nth-child(3) .section-section-number::after {
   background-color: #ffffff;
+}
+.image-container {
+  position: relative;
 }
 .advantage-image {
   max-width: 100%;
