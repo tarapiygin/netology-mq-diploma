@@ -113,26 +113,33 @@
       display: flex;
       justify-content: flex-start;
       flex-wrap: nowrap;
+      
   }
   .advantage-section:nth-child(even){
     flex-direction: row-reverse;
   }
+  .advantage-section:nth-child(n+2):nth-child(even) .advantage-image{
+    position: absolute;
+    max-width: 49.6rem;
+    top: -1.2rem;
+    right: 0;
+    z-index: 1;
+  }
   .advantage-section-container{
       box-sizing: border-box;
   }
-  .advantage-section-container:nth-child(1) {
-    width: 51.2%;
+  .advantage-section-container {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
   }
   .advantage-section-container:nth-child(2) {
-    padding-top: 5rem;
-    padding-bottom: 3.5rem;
+    padding-top: 12.5rem;
+    padding-bottom: 11rem;
     padding-left: 6.4rem;
-    padding-right: 9rem;
-    width: 49.8%;
+    padding-right: 9.8rem;
   }
-  .advantage-image{
-    position: absolute;
-  }
+  /* Не понял как осуществить наезд изображений друг на друга */
   .section-advantage-image-container {
     width: 7.25rem;
     height: 7.25rem;
@@ -147,5 +154,56 @@
     margin-top: 0.26rem;
     margin-bottom: 0.2rem;
   }
-
+  .footer {
+    background-image: url("../img/find-contact_1024.jpg");
+    background-position: center;
+    background-size: 50%;
+    padding-top: 10rem;
+    padding-bottom: 2.55rem;
+    background-color: #1e2245;
+  }
+  .footer::before {
+    background-color: #1e2245;
+    opacity: 0.8;
+  }
+  .footer-container{
+    text-align: center;
+  }
+  .container-logo-svg {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6.5rem;
+    height: 6.85rem;
+    padding: 1.3rem 0.65rem;
+    background-color: #563ca4;
+    border-radius: 2.8rem;
+    margin-right: 1.5rem;
+  }
+  .logo-svg {
+    display: block;
+    margin: auto;
+    width: 5.2rem;
+    fill: #ffffff;
+  }
+  .footer-text-container{
+    display: inline-block;
+    text-align: center;  
+  }
+  .footer-title {
+    text-align: left;
+    line-height: 1.2;
+    margin-bottom: 0;
+    font-size: 4rem;
+  }
+  .footer-description {
+    margin-top: 0;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .footer .buttons {
+    margin-top: 7rem;
+    margin-bottom: 11rem;
+  }
 }
