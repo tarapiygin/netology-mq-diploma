@@ -134,7 +134,7 @@
   .advantage-section:nth-child(2) .advantage-image{
     z-index: 2;
   }
-  .advantage-section:nth-child(3) .advantage-image{
+  .advantage-section:nth-child(3).advantage-image{
     z-index: 1;
   }
   
@@ -146,7 +146,7 @@
   }
   .advantage-section-container:nth-child(2) {
     padding-top: 12.5rem;
-    padding-bottom: 11rem;
+    padding-bottom: 10rem;
     padding-left: 6.4rem;
     padding-right: 9.8rem;
   }
@@ -157,6 +157,10 @@
     height: 8.4rem;
     bottom: -2.25rem;
     top: 30%;
+  }
+  .advantage-description{
+    font-size: 1.2rem;
+    line-height: 1.4;
   }
   .advantage-section:nth-child(even) .section-advantage-image-container {
     left: -4.2rem;
