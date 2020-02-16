@@ -109,6 +109,7 @@
   .section-players .container {
     padding-right: 48rem;
   }
+    /*блоки изображений и цифр*/
   .advantage-section {
       display: flex;
       justify-content: flex-start;
@@ -118,20 +119,30 @@
   .advantage-section:nth-child(even){
     flex-direction: row-reverse;
   }
-  .advantage-section:nth-child(n+2):nth-child(even) .advantage-image{
+  .advantage-section:nth-child(odd) .advantage-image{
+    position: relative;
+  }
+  .advantage-section:nth-child(even) .advantage-image{
     position: absolute;
-    max-width: 49.6rem;
-    top: -1.2rem;
+    max-width: 102%;
+    top: -3rem;
     right: 0;
+  }
+  .advantage-section:nth-child(1) .advantage-image{
+    z-index: 3;
+  }
+  .advantage-section:nth-child(2) .advantage-image{
+    z-index: 2;
+  }
+  .advantage-section:nth-child(3) .advantage-image{
     z-index: 1;
   }
+  
   .advantage-section-container{
       box-sizing: border-box;
   }
   .advantage-section-container {
     width: 50%;
-    display: flex;
-    justify-content: flex-end;
   }
   .advantage-section-container:nth-child(2) {
     padding-top: 12.5rem;
@@ -139,15 +150,22 @@
     padding-left: 6.4rem;
     padding-right: 9.8rem;
   }
-  /* Не понял как осуществить наезд изображений друг на друга */
-  .section-advantage-image-container {
-    width: 7.25rem;
-    height: 7.25rem;
+
+  .section-advantage-image-container{
+    z-index: 10;
+    width: 8.4rem;
+    height: 8.4rem;
     bottom: -2.25rem;
-    left: 2rem;
+    top: 30%;
+  }
+  .advantage-section:nth-child(even) .section-advantage-image-container {
+    left: -4.2rem;
+  }
+  .advantage-section:nth-child(odd) .section-advantage-image-container {
+    right: -4.2rem;
   }
   .section-advantage-image-container-number {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .section-advantage-image-container-number::after {
     height: 0.31rem;
